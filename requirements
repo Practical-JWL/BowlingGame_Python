@@ -1,14 +1,21 @@
-## 🛠️ Installation & Requirements ##
+## 🛠️ Installation & Requirements
+
+본 프로젝트는 **Python 3.12.12** 환경에서 개발되었으며, 실행을 위해 **Flet** 라이브러리 설치가 필수적으로 필요합니다.
 
 ---
 
-이 프로젝트를 실행한 버전은 **Python 3.12.12** 버전이다.
-**Flet** 라이브러리 설치가 필요하다.
+### 1. 개발 환경 및 가상환경 구축 (선택 사항)
+시스템 환경을 독립적으로 유지하고 패키지 충돌을 방지하기 위해 가상환경 사용을 권장합니다.
 
-### 1. 전용 가상환경을 만드는 것을 권장한 (선택사항): ###
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Windows: venv\Scripts\activate
+```bash
+# 가상환경 생성
+python -m venv venv
+
+# 가상환경 활성화 (Windows)
+source venv/Scripts/activate
+
+# 가상환경 활성화 (Mac/Linux)
+source venv/bin/activate
 
 ---
 
