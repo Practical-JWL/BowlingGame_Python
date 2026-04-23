@@ -71,3 +71,16 @@ UI 업데이트: 점수판(update_game_ui)과 핀 그래픽(🔴/⚪) 갱신.
 Step 4: 특수 기능 (Pause & Confirmation)
 UI 교체 방식: Flet의 self.controls 리스트를 통째로 갈아끼우는 방식으로 일시정지 및 확인 창을 구현하여, 모달 팝업 시 발생할 수 있는 프리징 현상을 방지합니다.
 
+---
+### 4. 핵심 함수별 역할 ###
+함수명,역할 설명
+<img width="783" height="358" alt="image" src="https://github.com/user-attachments/assets/52aaefd6-141e-4d0f-8afe-37d81dbea9f0" />
+
+---
+### 5. UI/UX 디자인 포인트 ###
+반응형 스코어보드: 현재 차례인 플레이어에게 하이라이트(녹색 테두리 및 👉 표시).
+
+시각적 핀 배치: monospace 폰트와 이모지를 활용하여 삼각형 형태의 볼링 핀 배치 구현.
+
+비동기 처리: 봇의 투구 시 threading을 활용하여 UI가 멈추지 않고 자연스럽게 다음 순서로 넘어가도록 설계.
+
